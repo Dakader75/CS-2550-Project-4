@@ -1,0 +1,54 @@
+main {
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "about-head"
+    "about-contact"
+    ;
+    gap: 2vw;
+}
+
+main > * {
+    padding: 2vw;
+    text-align: center;
+}
+
+#about-head {
+    text-align: left;
+    margin: 2vw;
+    grid-area: about-head;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+#about-head > p {
+    margin: 5vw;
+}
+
+#about-head > p > strong {
+    text-align: center;
+}
+
+#about-us-head-pic > img {
+    width: 35vw;
+}
+
+#about-contact {
+    margin: 2vw;
+    grid-area: about-contact;
+    display: flex;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+#about-contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#about-contact > h3 {
+    margin: 10vw;
+}
+
+#about-contact > ul {
+    font-size: 50pt;
+}
